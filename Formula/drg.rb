@@ -4,7 +4,7 @@
 class Drg < Formula
   desc "A command line tool for managing apps and devices in drogue cloud"
   homepage "https://drogue.io"
-  url "https://github.com/drogue-iot/drg/archive/refs/tags/0.4.0.tar.gz"
+  url "https://github.com/drogue-iot/drg/archive/refs/tags/v0.4.0.tar.gz"
   sha256 "4273dff46ed70f19ab24b3cd92731797d0b9d47348decf9862c31ceec95a439f"
   license "Apache-2.0"
 
