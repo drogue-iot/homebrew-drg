@@ -10,6 +10,10 @@ class Drg < Formula
 
   depends_on "rust" => :build
 
+  bottle do
+    sha256 cellar: :any_skip_relocation, catalina: "7e7d7a5faeaae36f8278c51ff34274f9ca25f9becc37683a8305729bbb09dc46"
+  end
+
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
     system "cargo", "install", *std_cargo_args

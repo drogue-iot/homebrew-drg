@@ -2,5 +2,5 @@
 
 ```
 brew tap drogue-iot/drg
-brew install drg
+brew install drogue-iot/drg/drg
 ```
