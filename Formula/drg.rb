@@ -1,8 +1,8 @@
 class Drg < Formula
-  desc "Command-line tool for managing apps and devices in drogue cloud"
+  desc "A command line tool for managing apps and devices in Drogue IoT cloud"
   homepage "https://drogue.io"
-  url "https://github.com/drogue-iot/drg/archive/refs/tags/v0.5.1.tar.gz"
-  sha256 "29f8d8adb014da9a47b1e68d485dedc180621844e7af228bc88a2cfb34baca63"
+  url "https://github.com/drogue-iot/drg/archive/refs/tags/v0.7.0.tar.gz"
+  sha256 "3c202d9c6eee4424a01a130ed7a5bfbb61b2cd42b37b1e0e7c2fbc092ca25502"
   license "Apache-2.0"
 
   depends_on "rust" => :build
